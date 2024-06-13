@@ -50,6 +50,9 @@ h4{
 .addTodo:hover{
   background-color: #8bdb84;
 }
+.addTodo:active{
+  transform: scale(0.9);
+}
 .delete{
   font-family: "Ubuntu", sans-serif;
   width: 80px;
@@ -64,6 +67,9 @@ h4{
 }
 .delete:hover{
   background: #ff0000;
+}
+.delete:active{
+  transform: scale(0.9);
 }
 .todo,
 .date{
