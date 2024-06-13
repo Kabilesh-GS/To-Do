@@ -2,3 +2,76 @@
   margin: 0px;
   padding: 0px;
 }
+h1,
+h4{
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Generated{
+  display: flex;
+  gap: 15px;
+}
+.todoTasks,
+.todoDate{
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: solid black 2px;
+  padding-left: 10px;
+  width: 250px;
+}
+.todoDate{
+  cursor: pointer;
+}
+.displayTodos{
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 40px;
+}
+.todoinputs{
+  margin-top: 20px;
+}
+.addTodo{
+  font-family: "Ubuntu", sans-serif;
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: #4fd843;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addTodo:hover{
+  background-color: #8bdb84;
+}
+.delete{
+  font-family: "Ubuntu", sans-serif;
+  width: 80px;
+  height: 40px;
+  border: none;
+  background: #ef2222;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.error{
+  color: #ef2222;
+}
+.delete:hover{
+  background: #ff0000;
+}
+.todo,
+.date{
+  font-size: 20px;
+  width: 250px; 
+  display: flex;
+  align-items: center;
+}
+.deletebtn{
+  justify-content: center;
+}
