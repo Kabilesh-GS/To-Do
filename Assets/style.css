@@ -46,12 +46,16 @@ h4{
   background-color: #4fd843;
   border-radius: 10px;
   cursor: pointer;
+  box-shadow: #909090 5px 5px 10px;
 }
 .addTodo:hover{
   background-color: #8bdb84;
 }
 .addTodo:active{
   transform: scale(0.9);
+  box-shadow: none;
+  transition: box-shadow 0.1s,
+              transform 0.1s;
 }
 .delete{
   font-family: "Ubuntu", sans-serif;
@@ -60,6 +64,7 @@ h4{
   border: none;
   background: #ef2222;
   border-radius: 10px;
+  box-shadow: #909090 5px 5px 10px;
   cursor: pointer;
 }
 .error{
@@ -70,6 +75,9 @@ h4{
 }
 .delete:active{
   transform: scale(0.9);
+  box-shadow: none;
+  transition: box-shadow 0.1s,
+              transform 0.1s;
 }
 .todo,
 .date{

@@ -36,7 +36,7 @@ function add(){
   let todoDate = document.querySelector('.todoDate');
   let Date = todoDate.value;
   if(Name == '' || Date == ''){
-    document.querySelector('.error').innerHTML = 'Add some To-Dos with the date';
+    document.querySelector('.error').innerHTML = 'Add some To-Dos with date';
     setTimeout(function(){
       document.querySelector('.error').innerHTML = '';
     },5000);
